@@ -1,5 +1,5 @@
-from mip_check import MIPCheck
-from helper_function import Helper
+from EVRPTW_PR_ALNS.mip_check import MIPCheck
+from EVRPTW_PR_ALNS.helper_function import Helper
 from math import ceil, floor
 from random import uniform, sample, random
 from copy import deepcopy

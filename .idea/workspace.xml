@@ -4,225 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67eb6032-0cdc-435b-bcbe-2dab32c94aa4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EVRPTW-ALNS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EVRPTW-ALNS.iml" afterDir="false" />
+    <list default="true" id="67eb6032-0cdc-435b-bcbe-2dab32c94aa4" name="Changes" comment="code refactored, requirements.txt added">
+      <change afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ALNS.py" beforeDir="false" afterPath="$PROJECT_DIR$/ALNS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C10/c101C10.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C10/c101C10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C10/c104C10.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C10/c104C10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C10/c202C10.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C10/c202C10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C10/c205C10.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C10/c205C10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C10/r102C10.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C10/r102C10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C10/r103C10.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C10/r103C10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C10/r201C10.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C10/r201C10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C10/r203C10.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C10/r203C10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C10/rc102C10.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C10/rc102C10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C10/rc108C10.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C10/rc108C10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C10/rc201C10.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C10/rc201C10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C10/rc205C10.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C10/rc205C10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c101_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c101_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c102_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c102_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c103_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c103_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c104_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c104_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c105_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c105_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c106_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c106_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c107_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c107_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c108_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c108_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c109_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c109_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c201_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c201_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c202_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c202_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c203_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c203_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c204_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c204_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c205_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c205_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c206_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c206_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c207_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c207_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/c208_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/c208_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r101_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r101_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r102_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r102_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r103_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r103_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r104_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r104_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r105_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r105_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r106_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r106_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r107_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r107_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r108_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r108_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r109_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r109_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r110_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r110_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r111_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r111_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r112_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r112_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r201_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r201_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r202_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r202_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r203_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r203_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r204_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r204_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r205_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r205_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r206_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r206_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r207_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r207_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r208_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r208_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r209_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r209_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r210_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r210_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/r211_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/r211_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc101_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc101_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc102_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc102_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc103_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc103_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc104_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc104_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc105_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc105_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc106_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc106_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc107_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc107_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc108_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc108_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc201_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc201_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc202_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc202_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc203_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc203_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc204_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc204_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc205_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc205_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc206_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc206_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc207_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc207_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C100/rc208_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C100/rc208_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C15/c103C15.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C15/c103C15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C15/c106C15.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C15/c106C15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C15/c202C15.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C15/c202C15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C15/c208C15.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C15/c208C15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C15/r102C15.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C15/r102C15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C15/r105C15.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C15/r105C15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C15/r202C15.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C15/r202C15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C15/r209C15.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C15/r209C15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C15/rc103C15.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C15/rc103C15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C15/rc108C15.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C15/rc108C15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C15/rc202C15.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C15/rc202C15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C15/rc204C15.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C15/rc204C15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C5/c101C5.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C5/c101C5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C5/c103C5.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C5/c103C5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C5/c206C5.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C5/c206C5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C5/c208C5.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C5/c208C5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C5/r104C5.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C5/r104C5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C5/r105C5.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C5/r105C5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C5/r202C5.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C5/r202C5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C5/r203C5.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C5/r203C5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C5/rc105C5.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C5/rc105C5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C5/rc108C5.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C5/rc108C5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C5/rc204C5.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C5/rc204C5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C5/rc208C5.json" beforeDir="false" afterPath="$PROJECT_DIR$/_route_scheduling/C5/rc208C5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CI.py" beforeDir="false" afterPath="$PROJECT_DIR$/_algorithms/CI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CR.py" beforeDir="false" afterPath="$PROJECT_DIR$/_algorithms/CR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SI.py" beforeDir="false" afterPath="$PROJECT_DIR$/_algorithms/SI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SR.py" beforeDir="false" afterPath="$PROJECT_DIR$/_algorithms/SR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c101C10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c101C10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c101C5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c101C5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c101_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c101_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c102_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c102_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c103C15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c103C15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c103C5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c103C5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c103_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c103_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c104C10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c104C10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c104_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c104_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c105_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c105_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c106C15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c106C15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c106_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c106_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c107_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c107_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c108_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c108_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c109_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c109_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c201_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c201_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c202C10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c202C10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c202C15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c202C15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c202_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c202_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c203_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c203_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c204_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c204_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c205C10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c205C10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c205_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c205_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c206C5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c206C5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c206_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c206_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c207_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c207_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c208C15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c208C15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c208C5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c208C5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/c208_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/c208_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r101_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r101_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r102C10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r102C10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r102C15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r102C15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r102_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r102_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r103C10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r103C10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r103_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r103_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r104C5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r104C5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r104_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r104_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r105C15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r105C15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r105C5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r105C5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r105_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r105_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r106_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r106_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r107_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r107_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r108_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r108_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r109_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r109_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r110_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r110_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r111_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r111_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r112_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r112_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r201C10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r201C10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r201_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r201_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r202C15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r202C15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r202C5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r202C5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r202_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r202_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r203C10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r203C10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r203C5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r203C5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r203_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r203_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r204_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r204_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r205_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r205_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r206_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r206_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r207_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r207_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r208_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r208_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r209C15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r209C15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r209_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r209_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r210_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r210_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/r211_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/r211_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc101_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc101_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc102C10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc102C10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc102_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc102_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc103C15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc103C15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc103_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc103_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc104_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc104_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc105C5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc105C5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc105_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc105_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc106_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc106_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc107_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc107_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc108C10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc108C10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc108C15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc108C15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc108C5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc108C5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc108_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc108_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc201C10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc201C10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc201_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc201_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc202C15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc202C15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc202_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc202_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc203_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc203_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc204C15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc204C15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc204C5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc204C5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc204_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc204_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc205C10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc205C10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc205_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc205_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc206_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc206_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc207_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc207_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc208C5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc208C5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evrptw_instances/rc208_21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_instances/rc208_21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feasibility rate/Feasibility_0.01_0.1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feasibility rate/Feasibility_0.01_0.5.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feasibility rate/Feasibility_0.01_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feasibility rate/Feasibility_0.05_0.1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feasibility rate/Feasibility_0.05_0.5.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feasibility rate/Feasibility_0.05_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feasibility rate/Feasibility_0.1_0.1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feasibility rate/Feasibility_0.1_0.5.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feasibility rate/Feasibility_0.1_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook codes/test_ALNS10.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook codes/test_ALNS100.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook codes/test_ALNS15.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook codes/test_ALNS5.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook codes/test_MILP10.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook codes/test_MILP15.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook codes/test_MILP5.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ALNS_C10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/_results/ALNS_C10.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ALNS_C100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/_results/ALNS_C100.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ALNS_C15.csv" beforeDir="false" afterPath="$PROJECT_DIR$/_results/ALNS_C15.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ALNS_C5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/_results/ALNS_C5.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/MILP_C10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/_results/MILP_C10.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/MILP_C15.csv" beforeDir="false" afterPath="$PROJECT_DIR$/_results/MILP_C15.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/MILP_C5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/_results/MILP_C5.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyr.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALNS.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/ALNS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/Initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_algorithms/CI.py" beforeDir="false" afterPath="$PROJECT_DIR$/_algorithms/CI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_algorithms/CR.py" beforeDir="false" afterPath="$PROJECT_DIR$/_algorithms/CR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_algorithms/SI.py" beforeDir="false" afterPath="$PROJECT_DIR$/_algorithms/SI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_algorithms/SR.py" beforeDir="false" afterPath="$PROJECT_DIR$/_algorithms/SR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/file_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/helper_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mip_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/mip_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mip_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/mip_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,6 +70,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\55479\PycharmProjects\EVRPTW-ALNS\EVRPTW_PR_ALNS" />
       <recent name="C:\Users\55479\PycharmProjects\EVRPTW-ALNS\algorithms" />
       <recent name="C:\Users\55479\PycharmProjects\EVRPTW-ALNS\route_scheduling" />
     </key>
@@ -298,11 +94,24 @@
       <workItem from="1722284807346" duration="2015000" />
       <workItem from="1722289985276" duration="244000" />
       <workItem from="1722290239558" duration="492000" />
-      <workItem from="1722881398311" duration="3369000" />
+      <workItem from="1722881398311" duration="5588000" />
     </task>
+    <task id="LOCAL-00001" summary="code refactored, requirements.txt added">
+      <option name="closed" value="true" />
+      <created>1722884933761</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722884933761</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="code refactored, requirements.txt added" />
+    <option name="LAST_COMMIT_MESSAGE" value="code refactored, requirements.txt added" />
   </component>
 </project>
