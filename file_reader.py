@@ -97,11 +97,6 @@ def get_parameters(file: string, num: int=0) -> Dict[string, Any]:
 
     normal_times = times
 
-
-
-
-
-
     parameters = {"Q": Q, "C": C, "g": g, "h": h, "v": v, "clients": clients, "stations": stations,
                   "all_nodes": all_nodes, "depot_start": depot_start, "depot_end": depot_end,
                   "demand": demand, "ready_time": ready_time, "due_date": due_date, "service_time": service_time,

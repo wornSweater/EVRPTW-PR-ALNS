@@ -34,7 +34,7 @@ class CustomerRemoval:
         self.g = self.parameters["g"]
         self.h = self.parameters["h"]
         self.v = self.parameters["v"]
-        # define the tuned parameters before start the algorithms
+        # define the tuned parameters before start the _algorithms
         self.removal_lower = int(min(0.1 * len(self.clients), 30))
         self.removal_upper = int(min(0.4 * len(self.clients), 60))
         self.worst_removal_factor = 4

@@ -5,7 +5,7 @@ from helper_function import Helper
 class StationInsertion:
     def __init__(self, parameters):
         """
-        Collection of station insertion algorithms
+        Collection of station insertion _algorithms
         :param parameters: parameters of a graph instance
         """
         self.parameters = parameters

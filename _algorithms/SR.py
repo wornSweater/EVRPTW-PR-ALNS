@@ -31,7 +31,7 @@ class StationRemoval():
         self.g = self.parameters["g"]
         self.h = self.parameters["h"]
         self.v = self.parameters["v"]
-        # define the tuned parameters before start the algorithms
+        # define the tuned parameters before start the _algorithms
         self.lower = 0.1
         self.upper = 0.4
 

@@ -1,6 +1,6 @@
 import string
 from mip_check import MIPCheck
-from SI import StationInsertion
+from _algorithms.SI import StationInsertion
 from helper_function import Helper
 
 

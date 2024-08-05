@@ -73,7 +73,7 @@ class CustomerInsertion:
                         # keep new route with time and cargo constraint, and use greedy station insertion to repair
                         if self.helper.cargo_check(new_route) and self.checker.time(
                                 new_route) and not self.checker.energy(
-                                new_route):
+                            new_route):
                             candidates.append(self.SI.supplement_station_insertion(new_route))
                 # when the loop finish, we proceed with the situation of all new routes
                 # if the candidates are not empty:
@@ -122,7 +122,6 @@ class CustomerInsertion:
                         route_index += 1
 
         return routes
-
 
     def regret_customer_insertion_2(self, routes, removal, k=2):
         """
@@ -245,7 +244,8 @@ class CustomerInsertion:
                                     route_index += 1
                                 # if the current route is already ["D0", "D0_end"], we start the perfect repair
                                 else:
-                                    routes[route_index] = self.SI.supplement_station_insertion(["D0", removal[0], "D0_end"])
+                                    routes[route_index] = self.SI.supplement_station_insertion(
+                                        ["D0", removal[0], "D0_end"])
                                     removal.remove(removal[0])
                     else:
                         # this is because the candidates are empty, since the route cannot meet time or cargo constraint
@@ -377,7 +377,8 @@ class CustomerInsertion:
                                     route_index += 1
                                 # if the current route is already ["D0", "D0_end"], we start the perfect repair
                                 else:
-                                    routes[route_index] = self.SI.supplement_station_insertion(["D0", removal[0], "D0_end"])
+                                    routes[route_index] = self.SI.supplement_station_insertion(
+                                        ["D0", removal[0], "D0_end"])
                                     removal.remove(removal[0])
                     else:
                         # this is because the candidates are empty, since the route cannot meet time or cargo constraint
