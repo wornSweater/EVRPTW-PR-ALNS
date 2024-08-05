@@ -1,10 +1,10 @@
-from file_reader import get_parameters
-from helper_function import Helper
-from Initial import Heuristic
-from _algorithms.CR import CustomerRemoval
-from _algorithms.CI import CustomerInsertion
-from _algorithms.SR import StationRemoval
-from _algorithms.SI import StationInsertion
+from EVRPTW_PR_ALNS.file_reader import get_parameters
+from EVRPTW_PR_ALNS.helper_function import Helper
+from EVRPTW_PR_ALNS.Initial import Heuristic
+from EVRPTW_PR_ALNS._algorithms.CR import CustomerRemoval
+from EVRPTW_PR_ALNS._algorithms.CI import CustomerInsertion
+from EVRPTW_PR_ALNS._algorithms.SR import StationRemoval
+from EVRPTW_PR_ALNS._algorithms.SI import StationInsertion
 from random import random, choices
 from math import log, exp
 from time import time

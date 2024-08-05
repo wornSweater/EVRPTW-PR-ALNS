@@ -1,7 +1,7 @@
 import string
-from mip_check import MIPCheck
-from _algorithms.SI import StationInsertion
-from helper_function import Helper
+from EVRPTW_PR_ALNS.mip_check import MIPCheck
+from EVRPTW_PR_ALNS._algorithms.SI import StationInsertion
+from EVRPTW_PR_ALNS.helper_function import Helper
 
 
 class Heuristic:

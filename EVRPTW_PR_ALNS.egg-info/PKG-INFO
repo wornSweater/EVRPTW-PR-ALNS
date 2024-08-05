@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: EVRPTW-PR-ALNS
-Version: 0.0.1
+Version: 0.0.3
 Summary: EVRPTW_PR ALNS algorithm sovler and heuristic solution initializer with MILP feasibility checker
 Home-page: https://github.com/wornSweater/EVRPTW-PR-ALNS
 Author: Xiaojing Lu

@@ -1,5 +1,5 @@
 import string
-from mip_check import MIPCheck
+from EVRPTW_PR_ALNS.mip_check import MIPCheck
 
 
 class Helper:
