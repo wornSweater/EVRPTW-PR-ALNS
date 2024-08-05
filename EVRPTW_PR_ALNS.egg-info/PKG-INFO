@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: EVRPTW-PR-ALNS
+Version: 0.0.1
+Summary: EVRPTW_PR ALNS algorithm sovler and heuristic solution initializer with MILP feasibility checker
+Home-page: https://github.com/wornSweater/EVRPTW-PR-ALNS
+Author: Xiaojing Lu
+Author-email: luxiaojing1204@outlook.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy==2.0.1
+Requires-Dist: gurobipy==11.0.3
+Requires-Dist: pandas==2.2.2

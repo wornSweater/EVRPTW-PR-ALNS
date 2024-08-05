@@ -1,0 +1,3 @@
+numpy==2.0.1
+gurobipy==11.0.3
+pandas==2.2.2

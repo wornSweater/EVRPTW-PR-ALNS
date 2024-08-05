@@ -1,7 +1,7 @@
 import gurobipy as gp
 from gurobipy import GRB
-from EVRPTW_PR_ALNS.file_reader import get_parameters
-from EVRPTW_PR_ALNS.helper_function import Helper
+from file_reader import get_parameters
+from helper_function import Helper
 
 
 def milp_model(file):

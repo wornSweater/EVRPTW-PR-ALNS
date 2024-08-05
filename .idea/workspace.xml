@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67eb6032-0cdc-435b-bcbe-2dab32c94aa4" name="Changes" comment="code refactored, requirements.txt added">
-      <change afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    <list default="true" id="67eb6032-0cdc-435b-bcbe-2dab32c94aa4" name="Changes" comment="setup to build a package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ALNS.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/ALNS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/Initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_algorithms/CI.py" beforeDir="false" afterPath="$PROJECT_DIR$/_algorithms/CI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_algorithms/CR.py" beforeDir="false" afterPath="$PROJECT_DIR$/_algorithms/CR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_algorithms/SI.py" beforeDir="false" afterPath="$PROJECT_DIR$/_algorithms/SI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_algorithms/SR.py" beforeDir="false" afterPath="$PROJECT_DIR$/_algorithms/SR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/file_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/helper_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mip_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/mip_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mip_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/mip_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EVRPTW_PR_ALNS/ALNS.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/ALNS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EVRPTW_PR_ALNS/Initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/Initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EVRPTW_PR_ALNS/helper_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/helper_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EVRPTW_PR_ALNS/mip_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/EVRPTW_PR_ALNS/mip_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +87,7 @@
       <workItem from="1722289985276" duration="244000" />
       <workItem from="1722290239558" duration="492000" />
       <workItem from="1722881398311" duration="5588000" />
+      <workItem from="1722887081737" duration="2496000" />
     </task>
     <task id="LOCAL-00001" summary="code refactored, requirements.txt added">
       <option name="closed" value="true" />
@@ -104,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722884933761</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="setup to build a package">
+      <option name="closed" value="true" />
+      <created>1722887117964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722887117964</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="code refactored, requirements.txt added" />
-    <option name="LAST_COMMIT_MESSAGE" value="code refactored, requirements.txt added" />
+    <MESSAGE value="setup to build a package" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup to build a package" />
   </component>
 </project>
